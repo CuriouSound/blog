@@ -3,50 +3,79 @@ h1
 	color: purple;
 }
 
-body
-{
+
+
+body, html{height:100%;}
+
+body{
 	background-color: grey;
+	text-align:center ;
+	background-image: url(file:///C:/Users/stagiaire/Desktop/blog/forai.jpg);
 }
 
+#main{
+	max-width:1280px;
+	min-height:100%;
+
+	margin:0 auto;
+	position:relative;
+}
+
+footer{
+	background: #ccc;
+	text-align: bottom;
+	position:absolute;
+	right:10px;
+	bottom:10px;
+}
 img
 {
-	border: solid 4px blue;
+	border:solid 4px blue;
 }
 #bloc
 {
 	width: 1550px;
-	margin: 0auto;
-	background-color: white;
+	margin: 0 auto;
+	background-color: grey;
 	text-align: center;
 	align-content: center;
 }
 .boutonmenuprincipal {
-	background-color: #e83737;
+	background-color: #0101DF;
 	color: white;
-	border: none;
+	border: #FF0000 ;
 	cursor: pointer;
 	padding:20px;
 	margin-top:20px;
 	font-size: 30px;
 	}
-.boutonmenuprincipal:hover {
-background-color: #ff4444;
-}
+
 .dropdown {
-	position: relative;
-	display: inline-block;
+		display: inline-block;
+		position: relative;
 }
 .dropdown-child {
 	display: none;
-	background-color: #f28c8c;
+	background-color: #8470FF;
 	min-width: 50px;
 }
 .dropdown-child a {
 	color: white;
 	padding: 20px;
-	text-decoration: none;
-	display: block;
+	flex-direction: row-reverse;
 }
 .dropdown:hover .dropdown-child {
-	display: block;
+	display: block ;
+}
+*{
+	margin: 30;
+	padding:20;
+}
+
+#contact{
+	width: 200px;
+	margin: 0 auto;
+	background-color: white;
+	text-align: center;
+	align-content: center;
 }
